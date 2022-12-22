@@ -1,0 +1,18 @@
+{"index":{"_id":"1"}}
+{"eventId":1,"title":"java","place":"Lviv","speaker":"Max Power","eventType":"TECH_TALK","date": "2022-05-05T12:00:00Z","description":"Java is the best","subTopic":["generics","collections"]}
+{"index":{"_id":"2"}}
+{"eventId":2,"title":"java","place":"Kyiv","speaker":"Max Power","eventType":"WORKSHOP","date": "2022-10-05T12:00:00Z","description":"Java is the best","subTopic":["OOP","collections"]}
+{"index":{"_id":"3"}}
+{"eventId":3,"title":"java","place":"Kharkiv","speaker":"Max Power","eventType":"TECH_TALK","date": "2022-11-05T12:00:00Z","description":"Java is the best","subTopic":["syntax","collections"]}
+{"index":{"_id":"4"}}
+{"eventId":4,"title":"Pytnon","place":"Kyiv","speaker":"Max Power","eventType":"WORKSHOP","date": "2022-11-05T12:00:00Z","description":"Python is the best","subTopic":["OOP","collections"]}
+{"index":{"_id":"5"}}
+{"eventId":5,"title":"Pytnon","place":"Lviv","speaker":"John Doe","eventType":"WORKSHOP","date": "2022-11-05T12:00:00Z","description":"python is the best","subTopic":["OOP","syntax"]}
+{"index":{"_id":"6"}}
+{"eventId":6,"title":"Pytnon","place":"Kharikv","speaker":"Max Power","eventType":"TECH_TALK","date": "2022-12-05T12:00:00Z","description":"python is the best","subTopic":["collections","syntax"]}
+{"index":{"_id":"7"}}
+{"eventId":6,"title":"JavaScript","place":"Kharikv","speaker":"John Doe","eventType":"WORKSHOP","date": "2022-06-30T12:00:00Z","description":"JavaScript is the best","subTopic":["collections","syntax"]}
+{"index":{"_id":"8"}}
+{"eventId":6,"title":"JavaScript","place":"Kyiv","speaker":"Max Power","eventType":"TECH_TALK","date": "2022-08-28T12:00:00Z","description":"JavaScript is the best","subTopic":["collections","syntax"]}
+{"index":{"_id":"9"}}
+{"eventId":6,"title":"JavaScript","place":"Lviv","speaker":"John Doe","eventType":"WORKSHOP","date": "2022-09-05T12:00:00Z","description":"JavaScript is the best","subTopic":["collections","syntax"]}

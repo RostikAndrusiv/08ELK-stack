@@ -1,0 +1,5 @@
+# Load via curl
+curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/event/_doc/_bulk?pretty' --data-binary @events.txt
+
+.\bin\logstash.bat -f .\config\logstash.conf
+filebeat -c filebeat.yml &

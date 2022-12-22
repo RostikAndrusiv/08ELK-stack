@@ -1,0 +1,62 @@
+# search all events; 
+GET event/_search
+
+# workshop events only; 
+
+GET event/_search
+{
+  "query": {
+    "match": {
+      "eventType": "WORKSHOP"
+    }
+  }
+}
+
+# events with title XXX; 
+
+GET event/_search
+{
+  "query": {
+    "match": {
+      "title": "Java"
+    }
+  }
+}
+
+# events which were held after date xx-xx-xx and with title XXX;
+GET event/_search
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "match": {
+            "title": "Java"
+          }
+        },
+        {
+          "range": {
+            "date": {
+              "gte": "2022-10-20T13:00-04:00"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+
+
+# calculate amount of events for each event type using ElasticSearch aggregations. (Note: use field_name.keyword)
+
+GET event/_search
+{
+  "size": 0,
+  "aggs": {
+    "eventType": {
+      "terms": {
+        "field": "eventType.keyword"
+      }
+    }
+  }
+}

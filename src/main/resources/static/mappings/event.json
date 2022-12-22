@@ -1,0 +1,23 @@
+{
+  "properties": {
+    "eventId": {
+      "type": "keyword"
+    },
+    "date": {
+      "type": "date",
+      "format": "yyyy-MM-dd'T'HH:mm:ss"
+    },
+    "eventType": {
+      "type": "text"
+    },
+    "place": {
+      "type": "text"
+    },
+    "speaker": {
+      "type": "text"
+    },
+    "title": {
+      "type": "text"
+    }
+  }
+}
